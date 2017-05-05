@@ -1,0 +1,81 @@
+<html>
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width">
+         <link href="estilos.css" rel="stylesheet"
+          type ="text/css">
+    </head>
+    
+    <body>
+        <div class="result">
+            <input style="text-align:right" type ="text" id="pant">
+        </div>
+        
+        <div class="botones">
+             <button>±</button>
+             <button onclick="concatenar('(')">(</button>
+             <button onclick="concatenar(')')">)</button>
+             <button onclick="addAcordeon()">✩</button>
+                
+        </div>
+        
+        <div class="botonesNum">
+            <button onclick="concatenar('7')">7</button>
+            <button onclick="concatenar('8')">8</button>
+            <button onclick="concatenar('9')">9</button>
+            <button class="divi" onclick="concatenar('/')">÷</button>
+        </div>
+        
+        <div class="botonesNum2">
+            <button onclick="concatenar('4')">4</button>
+            <button onclick="concatenar('5')">5</button>
+            <button onclick="concatenar('6')">6</button>
+            <button class="multi" onclick="concatenar('*')">x</button>
+        </div>
+        
+        <div class="botonesNum3">
+            <button onclick="concatenar('1')">1</button>
+            <button onclick="concatenar('2')">2</button>
+            <button onclick="concatenar('3')">3</button>
+            <button class="resta" onclick="concatenar('-')">-</button>
+        </div>
+        
+        <div class="botonesNum4">
+            <button onclick="concatenar('0')">0</button>
+            <button onclick="concatenar('.')">.</button>
+            <button onclick="concatenar('%')">%</button>
+            <button class="suma" onclick="concatenar('+')">+</button>
+        </div>
+        
+        <div class="botonesNum5">
+            <button class="borrar" onclick="borrar()">C</button>
+            <button class="igual" onclick="igual()">=</button>
+        </div>
+    </body>
+    
+    <script>
+        function concatenar(caracter){
+            document.getElementById('pant').value+=caracter
+        }
+        
+        function borrar(){
+            document.getElementById('pant').value=""
+        }
+        
+        function igual(){
+            pantalla = document.getElementById('pant').value;
+            document.getElementById('pant').value=eval(pantalla)
+            //alert(localStorage.getItem('claveSecreta'))
+        }
+        
+        function addAcordeon(){
+            pantalla = document.getElementById('pant').value;
+            if(pantalla == "007"){
+                //REDIRIGIR
+                window.location.assign('acordeon.html')
+            }
+            
+            //localStorage.setItem('claveSecreta', pantalla)
+        }
+    </script>
+</html>

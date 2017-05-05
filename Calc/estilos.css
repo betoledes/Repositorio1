@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black
+}
+.result{
+    width: 100%;
+    height: 150px;
+    background: black;
+    position: relative;
+}
+
+.result>input[type="text"]{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    font-size: 4.5em;
+    font-family: 'Century Gothic';
+    color: white;   
+    border: black;
+}
+
+.botones{
+    width: 100%;
+    height: auto;
+    background: black;
+    float: left
+}
+
+.botones button{
+    width: 24%;
+    height: 65px;
+    background: gray;
+    border: none;
+    margin-bottom: 4px;
+    font-size: 2.0em;
+    font-family: 'Century Gothic';
+    color: black;
+    float: left;
+    margin:.5%;
+    
+}
+
+.botonesNum{
+    width: 100%;
+    height: auto;
+    background: black;
+    float:left
+}
+
+.botonesNum button{
+    width: 24%;
+    height: 65px;
+    background: white;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    margin-bottom: 4px;
+    color: black;
+    float: left;
+    margin:.5%;
+}
+
+.botonesNum2{
+    width: 100%;
+    height: auto;
+    background: black;
+    float:left
+}
+
+.botonesNum2 button{
+    width: 24%;
+    height: 65px;
+    background: white;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    margin-bottom: 4px;
+    color: black;
+    float: left;
+    margin:.5%;
+}
+
+.botonesNum3{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: black;
+}
+
+.botonesNum3 button{
+    width: 24%;
+    height: 65px;
+    background: white;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    margin-bottom: 4px;
+    color: black;
+    float: left;
+    margin:.5%;
+}
+
+.botonesNum4{
+    width: 100%;
+    height: auto;
+    background: black;
+    float:left
+}
+
+.botonesNum4 button{
+    width: 24%;
+    height: 65px;
+    background: white;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    margin-bottom: 4px;
+    color: black;
+    float: left;
+    margin:.5%;
+}
+
+.botonesNum5{
+    width: 100%;
+    height: auto;
+    background: black;
+    float: left
+}
+
+.botonesNum5 button{
+    width: 24%;
+    height: 65px;
+    background: white;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    margin-bottom: 4px;
+    color: black;
+    float: left;
+    margin:.5%;    
+}
+
+.divi{
+    width: 24%;
+    height: 80px;
+    background: #3A61D8 !important;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    color: white !important;
+}
+
+.multi{
+    width: 24%;
+    height: 80px;
+    background: #3A61D8 !important;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    color: white !important;
+}
+
+.resta{
+    width: 24%;
+    height: 80px;
+    background: #3A61D8 !important;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    color: white !important;
+}
+
+.suma{
+    width: 24%;
+    height: 140px !important;
+    background: #3A61D8 !important;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    color: white !important;
+}
+
+.borrar{
+    width: 24%;
+    height: 72px !important;
+    background: red !important;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    color: white !important;
+    margin-top: -75px !important;
+}
+
+.igual{
+    width: 49% !important;
+    height: 72px !important;
+    background: orange !important;
+    border: none;
+    font-size: 2.3em;
+    font-family: 'Century Gothic';
+    color: white !important;
+    margin-left: 25.5% !important;
+    margin-top: -75px !important;
+}
+
+.recordatorio{
+    width: 100%;
+    height: 150px;
+    background: black;
+    position: relative;
+}
+
+.recordatorio>input[type="text"]{   
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    font-size: 2.0em;
+    font-family: 'Century Gothic';
+    color: white;   
+    border: black;
+}
+
+.guardar{
+    width: 40%;
+    height: 45px;
+    margin-left: 30%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.5em;
+    margin-top: 50px;
+    background-color: #0a4e5c;
+    font-family: 'Century Gothic';
+    color: white;
+    outline: none;
+}
+
+.regresar{
+     width: 40%;
+    height: 47px;
+    margin-left: 30%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.5em;
+    margin-top: 25px;
+    background-color: #0a4e5c;
+    font-family: 'Century Gothic';
+    color: white;
+    outline: none;
+}
